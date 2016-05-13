@@ -18,7 +18,7 @@ public class ItemBuilder {
         return this;
     }
 
-    public Item createItem() {
+    public Item create() {
         return new Item(name, sellIn, quality);
     }
 }

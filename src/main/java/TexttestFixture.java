@@ -3,16 +3,16 @@ public class TexttestFixture {
         System.out.println("OMGHAI!");
 
         Item[] items = new Item[]{
-                new ItemBuilder().withName("+5 Dexterity Vest").withSellInValue(10).withQuality(20).createItem(),
-                new ItemBuilder().withName("Aged Brie").withSellInValue(2).withQuality(0).createItem(),
-                new ItemBuilder().withName("Elixir of the Mongoose").withSellInValue(5).withQuality(7).createItem(),
-                new ItemBuilder().withName("Sulfuras, Hand of Ragnaros").withSellInValue(0).withQuality(80).createItem(),
-                new ItemBuilder().withName("Sulfuras, Hand of Ragnaros").withSellInValue(-1).withQuality(80).createItem(),
-                new ItemBuilder().withName("Backstage passes to a TAFKAL80ETC concert").withSellInValue(15).withQuality(20).createItem(),
-                new ItemBuilder().withName("Backstage passes to a TAFKAL80ETC concert").withSellInValue(10).withQuality(49).createItem(),
-                new ItemBuilder().withName("Backstage passes to a TAFKAL80ETC concert").withSellInValue(5).withQuality(49).createItem(),
+                new ItemBuilder().withName("+5 Dexterity Vest").withSellInValue(10).withQuality(20).create(),
+                new ItemBuilder().withName("Aged Brie").withSellInValue(2).withQuality(0).create(),
+                new ItemBuilder().withName("Elixir of the Mongoose").withSellInValue(5).withQuality(7).create(),
+                new ItemBuilder().withName("Sulfuras, Hand of Ragnaros").withSellInValue(0).withQuality(80).create(),
+                new ItemBuilder().withName("Sulfuras, Hand of Ragnaros").withSellInValue(-1).withQuality(80).create(),
+                new ItemBuilder().withName("Backstage passes to a TAFKAL80ETC concert").withSellInValue(15).withQuality(20).create(),
+                new ItemBuilder().withName("Backstage passes to a TAFKAL80ETC concert").withSellInValue(10).withQuality(49).create(),
+                new ItemBuilder().withName("Backstage passes to a TAFKAL80ETC concert").withSellInValue(5).withQuality(49).create(),
                 // this conjured item does not work properly yet
-                new ItemBuilder().withName("Conjured Mana Cake").withSellInValue(3).withQuality(6).createItem()};
+                new ItemBuilder().withName("Conjured Mana Cake").withSellInValue(3).withQuality(6).create()};
 
         GildedRose app = new GildedRose(items);
 
